@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_tiles_tiles",
+  "info": {
+    "displayName": "Tiles"
+  },
+  "options": {},
+  "attributes": {
+    "acf_fc_layout": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
