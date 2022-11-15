@@ -59,6 +59,15 @@
         "pink",
         "blue"
       ]
+    },
+    "imageMode": {
+      "type": "enumeration",
+      "enum": [
+        "illustration",
+        "image"
+      ],
+      "default": "illustration",
+      "required": true
     }
   }
 }
