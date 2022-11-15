@@ -1,7 +1,8 @@
 {
   "collectionName": "components_hero_image_module_hero_image_modules",
   "info": {
-    "displayName": "Hero Image Module"
+    "displayName": "Hero Image Module",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,14 +13,20 @@
       "type": "string"
     },
     "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "displayModule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "display-module.display-module"
     }
   }
 }
