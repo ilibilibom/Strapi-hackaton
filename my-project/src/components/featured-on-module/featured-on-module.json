@@ -1,20 +1,21 @@
 {
-  "collectionName": "components_hero_image_module_hero_image_modules",
+  "collectionName": "components_featured_on_module_featured_on_modules",
   "info": {
-    "displayName": "Hero Image Module",
+    "displayName": "FeaturedOnModule",
+    "icon": "atom",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "Score": {
+      "type": "decimal"
     },
-    "Subtitle": {
-      "type": "string"
+    "DefaultLogos": {
+      "type": "boolean"
     },
-    "hero_image": {
+    "Logos": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -23,9 +24,9 @@
         "audios"
       ]
     },
-    "displayModule": {
+    "DisplayModule": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "display-module.display-module"
     }
   }
