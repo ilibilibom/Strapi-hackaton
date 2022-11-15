@@ -21,6 +21,11 @@
       "type": "component",
       "repeatable": false,
       "component": "inline-selector-module.inline-selector-module"
+    },
+    "slug": {
+      "type": "text",
+      "default": "/",
+      "required": true
     }
   }
 }
