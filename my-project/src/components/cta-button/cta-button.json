@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cta_button_cta_buttons",
+  "info": {
+    "displayName": "CTAButton"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "buttonBgColor": {
+      "type": "enumeration",
+      "enum": [
+        "Transparent",
+        "Blue",
+        "White"
+      ]
+    }
+  }
+}
