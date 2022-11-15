@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hero_image_module_hero_image_modules",
+  "info": {
+    "displayName": "Hero Image Module"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "hero_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
