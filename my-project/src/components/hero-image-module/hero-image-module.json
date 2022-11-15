@@ -6,10 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "subtitle": {
+    "title": {
       "type": "string"
     },
     "hero_image": {
@@ -25,8 +22,11 @@
     },
     "displayModule": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "display-module.display-module"
+    },
+    "subtitle": {
+      "type": "richtext"
     }
   }
 }
