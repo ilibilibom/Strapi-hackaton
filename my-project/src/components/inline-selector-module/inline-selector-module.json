@@ -17,20 +17,20 @@
       "repeatable": true,
       "component": "tiles.tiles"
     },
-    "acf_fc_layout": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-fc-layout.acf-fc-layout"
-    },
     "ctaButton": {
       "type": "component",
       "repeatable": false,
       "component": "cta-button.cta-button"
     },
+    "acf_fc_layout": {
+      "type": "string",
+      "required": true,
+      "default": "inline_selector_module"
+    },
     "displayModule": {
-      "type": "component",
-      "repeatable": false,
-      "component": "display-module.display-module"
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

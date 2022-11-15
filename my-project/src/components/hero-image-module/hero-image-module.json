@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "hero_image": {
+    "heroImage": {
       "type": "media",
       "multiple": false,
       "required": false,
