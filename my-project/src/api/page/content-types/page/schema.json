@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "hero-image-module.hero-image-module"
+    },
+    "inlineSelectorModule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "inline-selector-module.inline-selector-module"
     }
   }
 }

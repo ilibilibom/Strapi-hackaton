@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_inline_selector_module_inline_selector_modules",
+  "info": {
+    "displayName": "InlineSelectorModule",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleHTMLType": {
+      "type": "string"
+    },
+    "acf_fc_layout": {
+      "type": "string"
+    },
+    "Tiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tiles.tiles"
+    }
+  }
+}
