@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_featured_on_module_featured_on_modules",
+  "info": {
+    "displayName": "FeaturedOnModule",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Score": {
+      "type": "decimal"
+    },
+    "DefaultLogos": {
+      "type": "boolean"
+    },
+    "Logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
