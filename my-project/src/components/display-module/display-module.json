@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_display_module_display_modules",
+  "info": {
+    "displayName": "displayModule",
+    "icon": "user-cog"
+  },
+  "options": {},
+  "attributes": {
+    "displayModule": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
