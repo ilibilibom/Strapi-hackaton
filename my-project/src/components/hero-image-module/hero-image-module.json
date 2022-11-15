@@ -27,6 +27,24 @@
     },
     "subtitle": {
       "type": "richtext"
+    },
+    "primaryCtaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta-button.cta-button"
+    },
+    "displayPrimaryCtaButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "displaySecondaryCtaButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "secondaryCtaButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta-button.cta-button"
     }
   }
 }
