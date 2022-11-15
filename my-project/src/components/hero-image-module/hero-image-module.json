@@ -9,7 +9,7 @@
     "Title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
     "hero_image": {
