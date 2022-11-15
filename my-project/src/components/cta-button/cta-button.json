@@ -1,14 +1,15 @@
 {
   "collectionName": "components_cta_button_cta_buttons",
   "info": {
-    "displayName": "CTAButton"
+    "displayName": "CTAButton",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "URL": {
+    "url": {
       "type": "string"
     },
     "buttonBgColor": {
