@@ -12,13 +12,25 @@
     "titleHTMLType": {
       "type": "string"
     },
-    "acf_fc_layout": {
-      "type": "string"
-    },
     "Tiles": {
       "type": "component",
       "repeatable": true,
       "component": "tiles.tiles"
+    },
+    "acf_fc_layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "acf-fc-layout.acf-fc-layout"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta-button.cta-button"
+    },
+    "displayModule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "display-module.display-module"
     }
   }
 }

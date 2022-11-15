@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_acf_fc_layout_acf_fc_layouts",
+  "info": {
+    "displayName": "acf_fc_layout"
+  },
+  "options": {},
+  "attributes": {
+    "acf_fc_layout": {
+      "type": "string"
+    }
+  }
+}
