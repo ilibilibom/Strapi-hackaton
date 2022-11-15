@@ -1,0 +1,23 @@
+Index: my-project/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"name\": \"my-project\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"description\": \"A Strapi application\",\n  \"scripts\": {\n    \"develop\": \"strapi develop\",\n    \"start\": \"strapi start\",\n    \"build\": \"strapi build\",\n    \"strapi\": \"strapi\"\n  },\n  \"devDependencies\": {},\n  \"dependencies\": {\n    \"@strapi/strapi\": \"4.5.0\",\n    \"@strapi/plugin-users-permissions\": \"4.5.0\",\n    \"@strapi/plugin-i18n\": \"4.5.0\",\n    \"better-sqlite3\": \"7.4.6\"\n  },\n  \"author\": {\n    \"name\": \"A Strapi developer\"\n  },\n  \"strapi\": {\n    \"uuid\": \"9d128bd4-e181-4e6b-b8be-a98c20fc7818\"\n  },\n  \"engines\": {\n    \"node\": \">=14.19.1 <=18.x.x\",\n    \"npm\": \">=6.0.0\"\n  },\n  \"license\": \"MIT\"\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/my-project/package.json b/my-project/package.json
+--- a/my-project/package.json	(revision a05116b7ef63d86a6e55e89b932de1c53d6a06f6)
++++ b/my-project/package.json	(date 1668502364115)
+@@ -11,9 +11,10 @@
+   },
+   "devDependencies": {},
+   "dependencies": {
+-    "@strapi/strapi": "4.5.0",
+-    "@strapi/plugin-users-permissions": "4.5.0",
++    "@strapi/plugin-graphql": "4.5.0",
+     "@strapi/plugin-i18n": "4.5.0",
++    "@strapi/plugin-users-permissions": "4.5.0",
++    "@strapi/strapi": "4.5.0",
+     "better-sqlite3": "7.4.6"
+   },
+   "author": {
