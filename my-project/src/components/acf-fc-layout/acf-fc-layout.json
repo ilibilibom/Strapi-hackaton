@@ -5,11 +5,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "acf_fc_layout": {
-      "type": "string",
-      "required": true,
-      "default": "hero_image_module"
-    }
-  }
+  "attributes": {}
 }

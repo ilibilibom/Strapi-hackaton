@@ -2,14 +2,9 @@
   "collectionName": "components_display_module_display_modules",
   "info": {
     "displayName": "displayModule",
-    "icon": "user-cog"
+    "icon": "user-cog",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "displayModule": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    }
-  }
+  "attributes": {}
 }

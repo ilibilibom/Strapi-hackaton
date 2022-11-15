@@ -20,11 +20,6 @@
         "audios"
       ]
     },
-    "displayModule": {
-      "type": "component",
-      "repeatable": false,
-      "component": "display-module.display-module"
-    },
     "subtitle": {
       "type": "richtext"
     },
@@ -47,9 +42,23 @@
       "component": "cta-button.cta-button"
     },
     "acf_fc_layout": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-fc-layout.acf-fc-layout"
+      "type": "string",
+      "default": "hero_image_module",
+      "required": true
+    },
+    "displayModule": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "pink",
+        "blue"
+      ]
     }
   }
 }
