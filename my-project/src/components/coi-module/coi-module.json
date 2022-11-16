@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_coi_module_coi_modules",
+  "info": {
+    "displayName": "COIModule"
+  },
+  "options": {},
+  "attributes": {
+    "acf_fc_layout": {
+      "type": "string",
+      "default": "coi_module"
+    },
+    "displayModule": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "pink",
+        "blue"
+      ]
+    },
+    "displayPaddingFrame": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "textTight",
+        "textOverflow"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "displayCtaButton": {
+      "type": "boolean"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta-button.cta-button"
+    },
+    "displayApplicationLinks": {
+      "type": "boolean"
+    }
+  }
+}
