@@ -9,17 +9,6 @@
     "title": {
       "type": "string"
     },
-    "heroImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "subtitle": {
       "type": "richtext"
     },
@@ -68,6 +57,9 @@
       ],
       "default": "illustration",
       "required": true
+    },
+    "heroImage": {
+      "type": "string"
     }
   }
 }
