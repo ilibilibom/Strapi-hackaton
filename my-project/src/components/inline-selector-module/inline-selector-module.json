@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "Tiles": {
+    "tiles": {
       "type": "component",
       "repeatable": true,
       "component": "tiles.tiles"
