@@ -26,6 +26,16 @@
       "type": "text",
       "default": "/",
       "required": true
+    },
+    "featured_on": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-on-module.featured-on-module"
+    },
+    "coi_module": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coi-module.coi-module"
     }
   }
 }

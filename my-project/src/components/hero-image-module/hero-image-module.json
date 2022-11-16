@@ -43,10 +43,15 @@
     "bgColor": {
       "type": "enumeration",
       "enum": [
+        "blue",
         "white",
-        "black",
+        "ocean",
+        "sky",
         "pink",
-        "blue"
+        "yellow",
+        "green",
+        "sky_50",
+        "sky_25"
       ]
     },
     "imageMode": {
