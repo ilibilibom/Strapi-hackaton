@@ -9,9 +9,6 @@
     "title": {
       "type": "string"
     },
-    "titleHTMLType": {
-      "type": "string"
-    },
     "Tiles": {
       "type": "component",
       "repeatable": true,
@@ -31,6 +28,13 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "titleHTMLType": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2"
+      ]
     }
   }
 }
