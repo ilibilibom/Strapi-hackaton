@@ -7,13 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "Score": {
+    "score": {
       "type": "decimal"
     },
-    "DefaultLogos": {
+    "default_logos": {
       "type": "boolean"
     },
-    "Logos": {
+    "logos": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -24,15 +24,12 @@
         "audios"
       ]
     },
-    "DisplayModule": {
-      "type": "component",
-      "repeatable": false,
-      "component": "display-module.display-module"
+    "acf_fc_layout": {
+      "type": "string"
     },
-    "acfFcLayout": {
-      "type": "component",
-      "repeatable": false,
-      "component": "acf-fc-layout.acf-fc-layout"
+    "displayModule": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

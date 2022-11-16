@@ -26,6 +26,11 @@
       "type": "text",
       "default": "/",
       "required": true
+    },
+    "featured_on": {
+      "type": "component",
+      "repeatable": false,
+      "component": "featured-on-module.featured-on-module"
     }
   }
 }
